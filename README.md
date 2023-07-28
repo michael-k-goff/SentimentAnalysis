@@ -12,3 +12,5 @@ This is a short project to illustrate sentiment analysis. The project demonstrat
 - Evaluation of the model with precision, recall, and f1-score by label, as well as a confusion matrix.
 
 The Jupyter notebook contains more explanatory comments and more code displaying intermediate output than the python scripts.
+
+The file `pca.png` portrays R^2^ values for principle components analyses up to 1000 components. While the training set shows continually improving R^2^, demonstrating improvement of fit, the test set shows a plateau at around 150 components and an eventual decline, indicating overfitting. Thus the optimum number of components is around 150.

@@ -14,6 +14,8 @@ from nltk.stem.snowball import SnowballStemmer
 from nltk.stem import WordNetLemmatizer
 import nltk
 
-#prepare.prepare()
-#ml_categorical.rfc()
+prepare.prepare()
+ml_categorical.rfc()
 ml_regression.linear_regression()
+ml_regression.pca100()
+ml_regression.pca_best()
